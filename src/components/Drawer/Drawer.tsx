@@ -47,7 +47,7 @@ export const Drawer = ({ opened }: { opened: boolean }) => {
 					Корзина
 					<img
 						onClick={() => setCartOpened(false)}
-						src='/img/btn-cross.svg'
+						src='img/btn-cross.svg'
 						alt='close'
 					/>
 				</h3>
@@ -68,7 +68,7 @@ export const Drawer = ({ opened }: { opened: boolean }) => {
 										<img
 											onClick={() => onRemoveFromCart(item)}
 											className='cart_item__btn-remove'
-											src='/img/btn-cross.svg'
+											src='img/btn-cross.svg'
 											alt='close'
 										/>
 									</div>
@@ -94,7 +94,7 @@ export const Drawer = ({ opened }: { opened: boolean }) => {
 								onClick={onClickOrder}
 								className='btn-green'
 							>
-								Оформить заказ<img src='/img/arrow.svg' alt='arrow'></img>
+								Оформить заказ<img src='img/arrow.svg' alt='arrow'></img>
 							</button>
 						</div>
 					</>
@@ -109,8 +109,8 @@ export const Drawer = ({ opened }: { opened: boolean }) => {
 						}
 						imgUrl={
 							isOrderComplete
-								? '/img/order-complete.png'
-								: '/img/cart-empty.png'
+								? 'img/order-complete.png'
+								: 'img/cart-empty.png'
 						}
 					/>
 				)}

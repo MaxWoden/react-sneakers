@@ -57,7 +57,7 @@ export const Orders = () => {
 			<Info
 				title='У вас нет заказов'
 				description={`Вы нищеброд? Оформите хотя бы один заказ.`}
-				imgUrl='/img/pity-smile.png'
+				imgUrl='img/pity-smile.png'
 				link
 			/>
 		)

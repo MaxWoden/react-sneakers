@@ -25,7 +25,7 @@ export const Favorites = () => {
 			<Info
 				title='Закладок нет :('
 				description={'Вы ничего не добавляли в закладки'}
-				imgUrl='/img/regret-smile.png'
+				imgUrl='img/regret-smile.png'
 				link
 			/>
 		)

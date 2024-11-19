@@ -30,7 +30,7 @@ export const Home = () => {
 					{searchValue ? `Поиск по запросу: ${searchValue}` : 'Все кроссовки'}
 				</h1>
 				<label htmlFor='search' className='content_top__search'>
-					<img width={14} src='/img/search.svg' alt='search' />
+					<img width={14} src='img/search.svg' alt='search' />
 					<input
 						id='search'
 						onChange={event => setSearchValue(event.target.value)}

@@ -35,7 +35,7 @@ export const Card = ({ card, buttons = true }: Props) => {
 			{buttons && (
 				<img
 					className={styles.favorite}
-					src={inFavorite ? '/img/liked.svg' : '/img/unliked.svg'}
+					src={inFavorite ? 'img/liked.svg' : 'img/unliked.svg'}
 					alt='favorite'
 					onClick={() => onAddFavorite(card)}
 				/>
@@ -51,7 +51,7 @@ export const Card = ({ card, buttons = true }: Props) => {
 				{buttons && (
 					<img
 						onClick={() => onAddToCart(card)}
-						src={inCart ? '/img/btn-checked.svg' : '/img/btn-plus.svg'}
+						src={inCart ? 'img/btn-checked.svg' : 'img/btn-plus.svg'}
 						alt='plus'
 					/>
 				)}

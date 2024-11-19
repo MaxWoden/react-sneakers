@@ -27,12 +27,12 @@ export const Info = ({
 				{link ? (
 					<Link to={'..'}>
 						<button className='btn-green' onClick={() => setCartOpened(false)}>
-							<img src='/img/arrow-left.svg' alt='arrow'></img> Вернуться назад
+							<img src='img/arrow-left.svg' alt='arrow'></img> Вернуться назад
 						</button>
 					</Link>
 				) : (
 					<button className='btn-green' onClick={() => setCartOpened(false)}>
-						<img src='/img/arrow-left.svg' alt='arrow'></img> Вернуться назад
+						<img src='img/arrow-left.svg' alt='arrow'></img> Вернуться назад
 					</button>
 				)}
 			</div>
